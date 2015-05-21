@@ -30,7 +30,7 @@ author: Toolboxx
 email: 
 
 # Configuration for blog
-lang: ja
+lang: en
 paginate: 4
 columns: 3
 date_format: "%B %d, %Y"
@@ -40,20 +40,31 @@ truncate_len: 200
 recent_posts: 5
 
 # Configuration for navbar.html
+#navbar_list:
+#- name: Blog
+#  link: /
+#  dropdown: &dropdown
+#  - name: Archives
+#    link: /blog/archives.html
+#  - name: Categories
+#    link: /blog/categories.html
+#  - name: Tags
+#    link: /blog/tags.html
+#- name: Project
+#  link: /project/
+#- name: About
+#  link: /about.html
+
+# modified
 navbar_list:
 - name: Blog
   link: /
-  dropdown: &dropdown
-  - name: Archives
-    link: /blog/archives.html
-  - name: Categories
-    link: /blog/categories.html
-  - name: Tags
-    link: /blog/tags.html
-- name: Project
-  link: /project/
-- name: About
-  link: /about.html
+- name: Archives
+  link: /blog/archives.html
+- name: Categories
+  link: /blog/categories.html
+- name: Tags
+  link: /blog/tags.html
 
 # Configuration for bootstrap and color theme
 # `bootstrap`:
@@ -71,10 +82,10 @@ responsive_bp: 768
 asides:
     about: true
     search: true
-    themes: true
+    themes: false
     recent_posts: true
     archive_tabs: true
-    tweets: true
+    tweets: false
     github: false
 
 # Configuration for pygments
