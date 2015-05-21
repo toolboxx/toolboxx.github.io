@@ -26,7 +26,7 @@ permalink: /blog/:year/:month/:title/
 # Configuration for site
 title: Toolboxx
 description: A repository for computer related tools.
-author: toolboxx
+author: Toolboxx
 email: 
 
 # Configuration for blog
@@ -109,13 +109,13 @@ facebook:
     xfbml: false
     locale: en_US
 
-twitter:
-    username: twitterapi
-    count: 5
-    exclude_replies: true
-    show_screen_name: true
-    show_follower_count: false
-#    widget_id: 243046062967885824
+#twitter:
+#    username: twitterapi
+#    count: 5
+#    exclude_replies: true
+#    show_screen_name: true
+#    show_follower_count: false
+##    widget_id: 243046062967885824
 
 github:
     username: toolboxx
