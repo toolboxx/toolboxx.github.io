@@ -31,7 +31,7 @@ email:
 
 # Configuration for blog
 lang: en
-paginate: 4
+paginate: 7
 columns: 3
 date_format: "%B %d, %Y"
 truncate_len: 200
