@@ -17,5 +17,9 @@ and Plantain, a pure Scala implementation.
 
 <!-- more -->
 
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
+
 - GitHub: [https://github.com/w3c/banana-rdf](https://github.com/w3c/banana-rdf)
 - Community: [http://lists.w3.org/Archives/Public/public-banana-rdf/](http://lists.w3.org/Archives/Public/public-banana-rdf/)

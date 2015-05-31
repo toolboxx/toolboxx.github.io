@@ -23,7 +23,9 @@ numerical and scientific libraries NumPy and SciPy.
 + Built on NumPy, SciPy, and matplotlib
 + Open source, commercially usable - BSD license
 
-Information:
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
 
 - Website: [http://scikit-learn.org/stable/](http://scikit-learn.org/stable/)
 - GitHub: [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)

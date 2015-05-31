@@ -33,6 +33,10 @@ and data analysis in Python. Features include:
 
 Statsmodels runs on Python 2.6 through 3.4. To learn more about statsmodels have a look at our documentation.
 
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
+
 - Website: [http://statsmodels.sourceforge.net/](http://statsmodels.sourceforge.net/)
 - GitHub: [https://github.com/statsmodels/statsmodels/](https://github.com/statsmodels/statsmodels/)
 - Documentation: [http://statsmodels.sourceforge.net/documentation.html](http://statsmodels.sourceforge.net/documentation.html)

@@ -20,6 +20,10 @@ date: 2015-05-26 00:14:00 +00:00
 + data health monitoring
 + a data quality eco-system
 
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
+
 - Website: [http://datacleaner.org/](http://datacleaner.org/)
 - Documentation: [http://datacleaner.org/docs](http://datacleaner.org/docs)
 - Download: [http://datacleaner.org/get_datacleaner](http://datacleaner.org/get_datacleaner)

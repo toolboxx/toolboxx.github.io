@@ -40,7 +40,9 @@ awesome lists can be found in the [awesome-awesomeness](https://github.com/bayan
 - Parsing
 - Sbt plugins
 
-Information:
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
 
 - GitHub: [https://github.com/lauris/awesome-scala](https://github.com/lauris/awesome-scala)
 - Community: [https://github.com/lauris/awesome-scala#contributing](https://github.com/lauris/awesome-scala#contributing)

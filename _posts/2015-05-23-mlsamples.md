@@ -14,4 +14,8 @@ date: 2015-05-23 17:58:00 +00:00
 
 <!-- more -->
 
+{% if site.asides.ads_post    %}{% include ads_post.html      %}{% endif %}
+
+## Information
+
 - GitHub: [https://github.com/awslabs/machine-learning-samples](https://github.com/awslabs/machine-learning-samples)
