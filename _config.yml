@@ -90,6 +90,7 @@ asides:
     tweets: false
     github: false
     ads_index: true
+    ads_post: true
 
 # Configuration for pygments
 # `pygments_style`:
