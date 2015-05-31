@@ -89,6 +89,7 @@ asides:
     archive_tabs: true
     tweets: false
     github: false
+    ads_index: true
 
 # Configuration for pygments
 # `pygments_style`:
