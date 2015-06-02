@@ -5,6 +5,13 @@
 <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/libs/jquery-{{ site.jquery_ver }}.min.js"><\/script>')</script>
 {% if site.asides.themes %}
 <script src="{{ site.baseurl }}/assets/js/libs/jquery.cookie.js"></script>
+<script src="{{ site.baseurl }}/assets/js/libs/cookiechoices.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+      'Got it', 'Learn more', 'http://www.allaboutcookies.org/');
+  });
+</script>
 <script>
 /*
  * Apply specified stylesheet through cookie
