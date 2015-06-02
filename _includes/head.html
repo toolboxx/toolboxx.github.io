@@ -16,13 +16,19 @@
 {% case site.bootstrap %}
 	{% when 'custom' %}
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap-{{ site.bootstrap_ver }}/css/bootstrap.custom.css" id="bootstrap-theme">
+<!--
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap-{{ site.bootstrap_ver }}/css/bootstrap-responsive.custom.css">
+-->
 	{% when 'original' %}
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/{{ site.bootstrap_ver }}/css/bootstrap.min.css" id="bootstrap-theme">
+<!--
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/{{ site.bootstrap_ver }}/css/bootstrap-responsive.min.css">
+-->
 	{% else %}
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/{{ site.bootswatch_ver }}/{{ site.bootstrap }}/bootstrap.min.css" id="bootstrap-theme">
+<!--
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/{{ site.bootstrap_ver }}/css/bootstrap-responsive.min.css">
+-->
 {% endcase %}
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
