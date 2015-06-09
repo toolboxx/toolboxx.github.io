@@ -25,7 +25,7 @@ permalink: /blog/:year/:month/:title/
 
 # Configuration for site
 title: Toolboxx
-description: A repository for computer related tools.
+description: A repository for computer related APIs and tools.
 author: Toolboxx
 email: 
 
