@@ -25,7 +25,8 @@ permalink: /blog/:year/:month/:title/
 
 # Configuration for site
 title: Toolboxx
-description: A repository for computer related APIs and tools.
+description: A repository for computer related APIs and tools. 
+description_long: Toolboxx is a public and open repository for computer related APIs and tools that worth to share.
 author: Toolboxx
 email: 
 
