@@ -8,7 +8,7 @@ comments: true
 date: 2015-06-30 22:25:00 +00:00
 ---
 
-![Image alt]({{ site.baseurl }}/images/2015-06-30-Highchart.png "Highchart")
+![Image alt]({{ site.baseurl }}/images/2015-06-30-Highcharts.png "Highchart")
 
 >Highcharts JS is a JavaScript charting library based on SVG and VML rendering.
 
